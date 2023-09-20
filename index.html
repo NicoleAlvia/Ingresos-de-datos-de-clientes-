@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Formulario ingreso de datos de clientes</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body ALIGN=CENTER>
+<div>
+    <h1>Formulario ingreso de datos de clientes</h1>
+</div>
+<form action="" method="get">
+<Fieldset class="Regitro">
+<legend><h2>Informacion personal</h2></legend>
+    Nombres: <input type="text" name="nombrel" autofocus required />
+    Apellidos: <input type="text" name="apellid" /><br>
+    <p></p>    
+    Telefono: <input type="tel" name="telefono" />
+    Cedula: <input  type="tel" name="cedula" /><br>
+    <p></p>
+    Direccion: <input type="text" name="direccion"/>
+    Fecha de Nacimiento: <input type="date" name="date_control"> <br>
+    <p></p>
+    Correo electronico: <input type="email" name="correo" required />
+    Pais:
+    <select name="paises" >
+        <option value=""></option>
+        <option value="Argentina">Argentina</option>
+        <option value="Bolivia">Bolivia</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+        <option value="Colombia">Colombia</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="El Salvador">El Salvador</option>
+        <option value="Estados Unido">Estados Unido</option>
+    </select>
+    Sexo:
+    <input type="radio" name="sexo"value="Masculino">Masculino
+    <input type="radio" name="sexo"value="Femenino">Femenino <br>
+
+    <p></p>
+        <input type="submit" value="Guardar" />
+        <input type="reset" value="Limpiar" />
+</Fieldset>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
